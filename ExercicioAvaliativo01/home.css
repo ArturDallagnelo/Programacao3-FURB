@@ -1,0 +1,57 @@
+html{
+    background-color: rgb(173, 247, 247);
+}
+
+.cabecalho{
+    display: table;
+    text-align: center;
+    color: white;
+    margin: auto;
+    background-color: blue;
+    width: 50%;
+    height: 80px;
+    vertical-align: middle;
+    border: 5px solid red;
+    margin-bottom: 5px;
+}
+
+.menu{
+    display: table;
+    text-align: center;
+    color: white;
+    margin: auto;
+    background-color: blue;
+    width: 50%;
+    height: 80px;
+    vertical-align: middle;
+    border: 5px solid red;
+    margin-bottom: 5px;
+}
+
+.conteudo{
+    display: table;
+    margin: auto;
+    background-color: white;
+    width: 50%;
+    height: 90px;
+    vertical-align: middle;
+    border: 5px solid black;
+    margin-bottom: 5px;
+}
+
+#texto{
+    margin-left: 15px;
+}
+
+.rodape{
+    display: table;
+    text-align: center;
+    color: white;
+    margin: auto;
+    background-color: blue;
+    width: 50%;
+    height: 70px;
+    vertical-align: middle;
+    border: 5px solid red;
+    margin-bottom: 5px; 
+}
