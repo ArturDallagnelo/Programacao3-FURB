@@ -1,0 +1,7 @@
+.tabela{
+    border: solid blue 1px;
+}
+
+.tabela :hover{
+    border: solid black 20px;
+}
