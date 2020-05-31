@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="TelaLogin.css">
+</head>
+
+<body>
+    <section class="login">
+    
+        <div class="box_interno">
+    
+            <header  class="titulo_login">Login</header>
+
+            <main>
+                <article class="usuario_senha"> 
+                    Usuario: <input type="text" id="usuario" placeholder="Username ou E-mail">
+                    <span  class="mensagemErro erroUsuario"></span>
+                </article>
+                
+                <article class="usuario_senha"> 
+                    Senha: <input type="password" id="senha" placeholder="Senha">
+                    <span  class="mensagemErro erroSenha"></span>
+                </article>
+                
+                <input type="checkbox" class="lembrarsenha">Lembrar sua senha?
+
+                <article class="botoes">
+                    <input type="button" id="botao" value="Login" onclick="logar()">
+                    <input type="button" id="botao" value="Criar uma nova conta" onclick="redirecionar()">
+                </article>
+
+            </main>
+
+        </div>
+    
+    </section>
+
+    <script src="TelaLogin.js"></script>
+</body>
+
+</html>

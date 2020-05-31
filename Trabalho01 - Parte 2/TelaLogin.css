@@ -1,0 +1,93 @@
+body{
+    background-color: #11a6d4;
+    height: 390px;
+    width: 390px;
+}
+
+/* Borda */
+.login{
+    background-color: #1992b7;
+    height: auto;
+    width: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* tela */
+.box_interno{
+    background-color: #fdfdfd;
+    height: 365px;
+    width: 350px;
+    position: absolute;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    overflow: hidden;
+}
+
+.titulo_login{
+    background-color: #fafbfc;
+    height: 45px;
+    text-align: center;
+    font: bold 20px/45px arial;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid #bfc3c5;
+    box-shadow: 1px 0px 3px #dedede;
+    color: #555555;
+    text-shadow: 1px 0px 1px;
+}
+
+.usuario_senha{
+    margin: 20px;
+    padding: 5px;
+    background-color: #f2f5f7;
+    border-radius: 3px;
+}
+
+.usuario_senha input{
+    width: 290px;
+    height: 35px;
+    padding-left: 5px;
+    font: normal 13px arial;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #bfc4c6;
+    outline: none;
+}
+
+.usuario_senha:hover{
+    background-color: #e0f1fc;
+}
+
+.usuario_senha:hover input{
+    border-color: #7dc6dd;
+}
+
+.mensagemErro{
+    font-size: 13px;
+    color: red;
+}
+
+.botoes{
+    width: 320px;
+    margin-left: 25px;
+}
+
+label{
+    font: 12px normal arial;
+}
+
+#botao{
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: rgb(110, 147, 206);
+    width: 297px;
+    text-align: center;
+}
+
+.lembrarsenha{
+    font: 12px normal arial;
+    margin-left: 25px;
+}
