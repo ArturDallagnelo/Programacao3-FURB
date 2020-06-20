@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(134, 134, 194); 
+    font: normal 15px arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    margin: auto;
+    padding: 15px;    
+    width: 600px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363)
+}
+
+.Itens{
+    display: block;
+    margin-top: 5px;
+    width: 595px;
+    height: 30px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.mensagemErro{
+    font-size: 13px;
+    margin: 0px 0px 5px;
+    color: red;
+}
+
+.comboBox{   
+    display: block;
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+
+.botao input{
+    height: 30px;
+    width: 80px;
+}

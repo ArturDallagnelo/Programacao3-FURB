@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro Produtos</title>
+    <link rel="stylesheet" href="Cadastro.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1>CADASTRO DE EMPREGADOS</h1>
+    </header>
+ 
+    <section>   
+        <form action="gravar.php" method="POST" id="Form_CadastroProduto">
+            
+            <div>
+                Nome:   <input type="text"   class="Itens"  id="nome"   placeholder="Nome"  >
+                <span  class="mensagemErro erroNome"></span>
+            </div>
+            
+            <div>
+                Salário:     <input type="number" class="Itens"  id="ID"     placeholder="0.00"    >
+                <span  class="mensagemErro erroID"></span>
+            </div>
+            
+            <div>
+                Idade:    <input type="number" class="Itens"  id="SKU"    placeholder="0"   >
+                <span  class="mensagemErro erroSKU"></span>
+            </div>
+                        
+            <div>
+                Avatar:  <input type="text"   class="Itens"  id="marca"  placeholder="http://url.do.avatar" >
+                <span  class="mensagemErro erroMarca"></span>
+            </div>
+                        
+            <div class="botao">
+                <input type="button" value="Cadastrar" onclick="cadastrar()">
+                <input type="button" value="Relatório" onclick="redirecionar()">
+            </div>
+        </form>
+    </section>
+
+    <script src="Cadastro.js"></script>
+
+</body>
+
+</html>
