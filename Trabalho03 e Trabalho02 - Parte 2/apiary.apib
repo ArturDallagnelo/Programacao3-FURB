@@ -1,0 +1,95 @@
+FORMAT: 1A
+HOST: https://polls.apiblueprint.org/
+
+#APIEscola
+
+APi para o controle de professores empregados em uma instituição de ensino
+
+## Professores [/professores]
+
+### Lista todos Professores [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "id": 01,
+            "naome": "Fulano de tal",
+            "salario": 1500,00,
+            "idade": 25,
+            "contato":"47 99999 9999"
+            }
+        ]
+
+### Obter um Professor pelo ID [GET /professores/:id]
+
++ Response 200 (application/json)
+
+        [
+            {
+            "id": 01,
+            "naome": "Fulano de tal",
+            "salario": 1500,00,
+            "idade": 25,
+            "contato":"47 99999 9999"
+            }
+        ]
+        
+
+### Criar um novo Professor [POST]
+
++ Request (application/json)
+
+        {
+            "id": 01,
+            "naome": "Fulano de tal",
+            "salario": 1500,00,
+            "idade": 25,
+            "contato":"47 99999 9999"
+            }
+
++ Response 201 (application/json)
+
+        {
+            "id": 01,
+            "naome": "Fulano de tal",
+            "salario": 1500,00,
+            "idade": 25,
+            "contato":"47 99999 9999"
+            }
+        
+
+### Atualizar um Professor existente [PUT /professores/:id]
+
++ Request (application/json)
+
+        {
+            "id": 01,
+            "naome": "Fulano de tal",
+            "salario": 1500,00,
+            "idade": 25,
+            "contato":"47 99999 9999"
+            }
+
++ Response 201 (application/json)
+
+        {
+            "id": 01,
+            "naome": "Fulano de tal",
+            "salario": 1500,00,
+            "idade": 25,
+            "contato":"47 99999 9999"
+            }
+
+        
+### Excluir um Professor [DELETE /professores/:id]
+
++ Response 200 (application/json)
+
+        {
+            "id": 01,
+            "naome": "Fulano de tal",
+            "salario": 1500,00,
+            "idade": 25,
+            "contato":"47 99999 9999"
+        }
